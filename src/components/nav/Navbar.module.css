@@ -1,0 +1,61 @@
+/* Estilos para la barra de navegación */
+.navbar {
+  background-color: #000000;
+  color: #f80067;
+  position: fixed; /* Fija la barra de navegación en la parte superior */
+  top: 0; /* Asegura que esté en la parte superior */
+  left: 0; /* Ocupa todo el ancho de la pantalla */
+  width: 100%; /* Ocupa todo el ancho de la pantalla */
+  z-index: 1000; /* Controla el z-index para que esté por encima de otros elementos */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+/* Estilos para el logotipo y otros elementos de la barra de navegación */
+.logoNav {
+  width: 100px;
+  height: auto;
+  margin-right: 10px;
+}
+
+/* Estilos para el botón y otros elementos de la barra de navegación */
+.itemList {
+  background-color: #007bff;
+  color: #f80067;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Estilos para la lista de navegación */
+.navList {
+  list-style-type: none;
+  margin: 0;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 0;
+  display: flex;
+}
+
+/* Estilos para los elementos de la lista */
+.navitem {
+  margin: 0 15px;
+}
+
+/* Estilos para los enlaces en la lista */
+.navitem a {
+  text-decoration: none;
+  color: #f80067;
+}
+
+/* Estilos para los enlaces en hover */
+.navitem a:hover {
+  text-decoration: underline;
+}
+
+.button{
+  background-color: #f80067;
+}

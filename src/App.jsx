@@ -1,20 +1,28 @@
-import {Navbar} from "./Navbar"
-import MaterialUi from "./pages/MaterialUi/MaterialUi"
+import {useState} from "react"
+import Navbar from "./components/nav/Navbar" 
+import Home from "./components/home/Home"
+import CartWidget from "./components/CartWidget"
+
+
+
+
 function App() {
- //javascript
-//let estilos ={
- // color: "red"
+  
 
   return (
-    //html
-    // entre {} busca algo de js
     <div>
-      <MaterialUi />
-    < Navbar />
-      <h1 style={{color:"red"}}>hola</h1>
-      </div>
+  
+     <Navbar />
+    <CartWidget/>
+     
+     <Home/>
+  
     
-  )
+    </div>
+   ) 
+
+    
+  
 }
 
 export default App
