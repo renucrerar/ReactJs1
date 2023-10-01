@@ -1,9 +1,8 @@
-import React from "react";
+import {useSate} from "react";
 import producto from "../imagenes/terrabusi.jpg"
 import producto1 from "../imagenes/pepito.png"
 import producto2 from "../imagenes/aguila.png"
 import styles from "./Home.module.css"
-import Card from '@mui/material/Card';
 import CounterContainer from "../counter/CounterContainer"
 
 

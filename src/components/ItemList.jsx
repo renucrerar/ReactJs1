@@ -1,7 +1,7 @@
 
 const ItemList = () => {
   return (
-    <h3>Bienvenide a la pagina online de alfajores argentinos</h3>
+    <h2>Gracias por visitar nuesta pagina web</h2>
   )
 }
 

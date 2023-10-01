@@ -15,10 +15,10 @@ function App() {
     <>
   
      <Navbar />
-      <CartWidget/>
+     
      <Home/>
   
-    
+     <CartWidget/>
     </>
    ) 
 

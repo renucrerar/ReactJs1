@@ -56,3 +56,12 @@
     text-align: center;
     margin-top: 100px;
 }
+.button{
+    background-color: #f80067;
+    padding: 10px 20px; /* Espaciado del botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 1rem; /* Tamaño de fuente del botón */
+    display: block; /* Configuración para bloque */
+    margin: 0 auto; /* Centrar horizontalmente */
+  }
