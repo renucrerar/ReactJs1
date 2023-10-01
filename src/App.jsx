@@ -6,19 +6,20 @@ import CartWidget from "./components/CartWidget"
 
 
 
+
+
 function App() {
   
 
   return (
-    <div>
+    <>
   
      <Navbar />
-    <CartWidget/>
-     
+      <CartWidget/>
      <Home/>
   
     
-    </div>
+    </>
    ) 
 
     
